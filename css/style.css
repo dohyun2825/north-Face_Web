@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/* mainSlider */
+
+.mainSliderWrap{
+    width: 878px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.mainSlider{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.mainSliderBtn{
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    margin-left: -36px;
+}
+
+.mainSliderBtn a li{
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    background: url("../image/main/mainSliderBtn2.PNG") no-repeat;
+    background-position: -14px 0;
+    text-indent: -9999px;
+}
+
+.mainSliderBtn a:first-child li{
+    width: 14px;
+    height: 14px;
+    background: url("../image/main/mainSliderBtn2.PNG") no-repeat;
+    background-position: 0 0;
+}
+
+.mainSliderBtn a:last-child li{
+    margin: 0;
+}
+
+
+/* row1 */
+
+.row1{
+    width: 800px;
+    margin: 0 auto;
+    padding: 8vh 0;
+}
+
+.row1Tit{
+    position: relative;
+    height: 25px;
+}
+
+.titLeft{
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    width: 150px;
+    border-bottom: 1px solid #000;
+}
+
+.titRight{
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+}
+
+.row1Contents li{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+.row1Contents li a{
+    display: block;
+    font-size: 0;
+}
+
+.row1Contents li a span{
+    display: block;
+    padding: 20px 0;
+    background: #ecf1e6;
+}
+
+.row1Contents li a span h4{
+    font-size: 10px;
+}
+
+.row1Contents li a span h5, .row1Contents li a span h6{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row1Contents li a span h5{
+    font-size: 11px;
+    color: #ababab;
+    text-decoration: line-through;
+}
+
+.row1Contents li a span h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row1Contents li a span p{
+    font-size: 13px;
+    color: #fb7a7a;
+}
+
+/* row2 */
+
+.row2{
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+
+/* row2-1 */
+
+.row2-1Wrap{
+    position: relative;
+}
+
+.row2-1Left, .row2-1Right{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.row2-1RightTop{
+    height: 200px;
+}
+
+.row2-1RightBottom{
+    height: 200px;
+}
+
+.row2-1RightBottomLt, row2-1RightBottomRt{
+    width: 200px;
+    height: 200px;
+}
+
+/* row2-2 */
+
+.row2-2Wrap ul li{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.row2-2-3{
+    height: 200px;
+}
+
+.row2-2-3 a{
+    float: left;
+    font-size: 0;
+}
+
+
+
+
+
+

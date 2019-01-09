@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/* row1 */
+
+.row1{
+    width: 878px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b8b8b8;
+    position: relative;
+}
+
+.row1Tit, .row1Path{
+    float: left;
+}
+
+.row1Tit{
+    width: 50%;
+}
+
+.row1Tit{
+    display: block;
+    margin-top: 32px;
+}
+
+.row1Tit h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.row1Path{
+    width: 50%;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 7vh;
+}
+
+.row1Path a:first-child{
+    background: url("../../image/common/bt_home.png") no-repeat 0% 50%;
+    padding-left: 12px;
+}
+
+/* row2 */
+
+.row2Wrap{
+    width: 878px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+/* row2Right */
+
+.row2Right{
+    
+}
+
+/* communityMenu */
+
+.communityMenu{}
+
+.communityMenu ul{
+    margin-top: 30px;
+}
+
+.communityMenu ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.communityMenu ul li:first-child a{
+    font-weight: bold;
+    border-bottom: 4px solid #000;
+}
+
+.communityMenu ul li:last-child{
+    margin-right: 0;
+}
+
+.communityMenu ul li a{
+    font-size: 18px;
+}
+
+/* row2RightContents */
+
+.row2RightContents{
+    width: 878px;
+    text-align: center;
+    padding: 3vh 0;
+}
+
+.row2RightContents li{
+    width: 25%;
+    height: 255px;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.row2RightContents li a{
+    text-align: left;
+    width: 95%;
+    display: block;
+}
+
+.row2RightContents li a span{
+    height: 85px;
+    width: 90%;
+    display: block;
+}
+
+.row2RightContents li a span h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row2RightContents li a span h4{
+    font-size: 16px;
+    letter-spacing: -1px;
+    padding-top: 10px;
+}
+
+.row2RightContents li a h5{
+    font-size: 14px;
+    color: #969696;
+}
+
+/* row2RightBtn */
+
+.row2RightBtn{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.row2RightBtn li{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 28px;
+    background: #000;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.row2RightBtn li a{
+    color: #fff;
+    display: block;
+}
+
+.row2RightBtn li:first-child{
+    background: url("../../image/04_products/firstPageBt.jpg") no-repeat;
+    text-indent: -9999px;
+}
+
+.row2RightBtn li:nth-child(2){
+    background: url("../../image/04_products/backPageBt.jpg") no-repeat;
+    text-indent: -9999px;
+}
+
+.row2RightBtn li:nth-child(3){
+    background: #909090;
+}
+
+.row2RightBtn li:nth-child(3) a{
+    color: #000;
+}
+
+.row2RightBtn li:nth-child(12){
+    background: url("../../image/04_products/nextPageBt.jpg") no-repeat;
+    text-indent: -9999px;
+}
+
+.row2RightBtn li:last-child{
+    background: url("../../image/04_products/lastPageBt.jpg") no-repeat;
+    text-indent: -9999px;
+    margin-right: 0;
+}
+
+
+
+
+
+

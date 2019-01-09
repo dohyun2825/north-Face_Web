@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+
+/* header */
+
+#header{
+    
+}
+
+.headerWrap{
+    width: 878px;
+    margin: 0 auto;
+}
+
+.headerTop{
+    padding: 29px 0;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    margin-left: -53.5px;
+}
+
+.logo a{
+    display: block;
+}
+
+.siteMap{
+    font-size: 14px;
+    font-weight: 800;
+    position: absolute;
+    left: 0;
+    top: 39px;
+}
+
+.search{
+    position: absolute;
+    right: 0;
+    top: 39px;
+}
+
+.searchInput{
+    width: 130px;
+    height: 25px;
+    background: urL("../image/main/search.png") no-repeat 100% 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 12pt;
+    color: #acacac;
+    text-align: center;
+}
+
+.searchInput:focus{
+    color: #000;
+}
+
+input::-ms-clear,
+input::-ms-reveal{
+    display: none;
+    width : 0;
+    height: 0;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    display: none;
+}
+
+.headerBottom{}
+
+
+/* gnb */
+
+.gnb{
+    margin-top: 40px;
+    border-top: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+}
+
+.gnb li{
+    float: left;
+    padding: 5px 0;
+    width: 146.3px;
+    text-align: center;
+}
+
+
+/* footer */
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+#footer{
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    height: 120px;
+    background: #353535;
+    margin: 0 auto;
+}
+
+.footerWrap{
+    width: 878px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footerLogo, .footerContents, .footerSnsBtn{
+    display: inline-block;
+    text-align: center;
+}
+
+.footerLogo{
+    position: absolute;
+    left: 1vh;
+    top: 50%;
+    margin-top: -16.5px;
+}
+
+.footerContents{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -155px;
+    margin-top: -6.5px;
+}
+
+.footerSnsBtn{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.footerLogo, .footerContents{
+    
+}
+
+.footerLogo a{
+    display: block;
+}
+
+.footerContents{
+    font-size: 12px;
+    color: #ecf1e6;
+}
+
+.footerSnsBtn ul li{
+    float: left;
+    margin: 0 1vh;
+}
+
+.familySite{
+    height: 30px;
+    width: 140px;
+    background-color: #494244;
+    color: #fff;
+    padding-left: 10px;
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;
+    background: url("../image/main/footerArrow.png") no-repeat 100% 50%;
+}
+
+select::-ms-expand {
+   display: none;            
+}
+
+

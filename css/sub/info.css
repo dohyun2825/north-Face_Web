@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/* */
+
+.row1{
+    width: 878px;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.row1Tit, .row1Path{
+    float: left;
+}
+
+.row1Tit{
+    width: 50%;
+}
+
+.row1Tit a{
+    display: block;
+}
+
+.row1Tit a h3{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.row1Tit a p{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row1Path{
+    width: 50%;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 5vh;
+}
+
+.row1Path a:first-child{
+    background: url("../../../image/common/bt_home.png") no-repeat 0% 50%;
+    padding-left: 12px;
+}
+
+/* row2 */
+
+.row2Wrap{
+    width: 878px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.row2TopLeft, .row2TopRight{
+    float: left;
+    border-top: 1px solid #000;
+}
+
+.row2BottomLeft, .row2BottomRight{
+    float: left;
+    border-bottom: 1px solid #000;
+}
+
+.row2TopLeft, .row2BottomLeft{
+    width: 530px;
+    height: 281px;
+}
+
+.row2TopRight, .row2BottomRight{
+    width: 348px;
+    height: 281px;
+}
+
+.row2TopRight{
+    text-align: center;
+}
+
+.row2TopBar{
+    width: 90px;
+    height: 1px;
+    margin: 10px auto;
+    background: #d0d0d0;
+}
+
+.row2TopRight h2{
+    font-size: 24px;
+    font-style: italic;
+    color: #808080;
+    margin-top: 18px;
+}
+
+.row2TopRight h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row2TopRight p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #5c5c5c;
+    text-align: left;
+    line-height: 180%;
+    margin-bottom: 10px;
+}
+
+/* */
+
+.row2BottomBar{
+    width: 100px;
+    height: 1px;
+    margin: 10px 0 10px 25px;
+    background: #d0d0d0;
+}
+
+.row2BottomLeft h2{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-style: italic;
+    color: #808080;
+    margin-top: 18px;
+}
+
+.row2BottomLeft h3{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row2BottomLeft p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #5c5c5c;
+    text-align: left;
+    line-height: 180%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+

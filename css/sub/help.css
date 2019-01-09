@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* */
+
+.row1{
+    width: 878px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b8b8b8;
+    position: relative;
+}
+
+.row1Tit, .row1Path{
+    float: left;
+}
+
+.row1Tit{
+    width: 50%;
+}
+
+.row1Tit{
+    display: block;
+    margin-top: 32px;
+}
+
+.row1Tit h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.row1Path{
+    width: 50%;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 7vh;
+}
+
+.row1Path a:first-child{
+    background: url("../../../image/common/bt_home.png") no-repeat 0% 50%;
+    padding-left: 12px;
+}
+
+/* row2 */
+
+.row2Wrap{
+    width: 878px;
+    margin: 0 auto;
+}
+
+.row2Left, .row2Right{
+    float: left;
+}
+
+/* row2Left */
+
+.row2Left{
+    width: 60%;
+}
+
+.row2LeftTit{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+}
+
+.row2LeftList li ul{
+    height: 18vh;
+}
+
+.row2LeftList li ul li{
+    font-size: 14px;
+    list-style: inside;
+    margin-top: 2vh;
+}
+
+.row2LeftList li ul li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 0;
+}
+
+/* row2Right */
+
+.row2Right{
+    width: 40%;
+}
+
+.row2RightList{
+    text-align: center;
+    padding: 11vh 0;
+}
+
+.row2RightList ul{
+    height: 23vh;
+}
+
+.row2RightList li ul li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1vh 0;
+}
+
+.row2RightList li ul:first-child li:nth-child(2), .row2RightList li ul:first-child li:nth-child(4){
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.row2RightList li ul:first-child li:nth-child(3), .row2RightList li ul:first-child li:nth-child(5){
+    font-size: 13px;
+    margin-bottom: 2vh;
+}
+
+.row2RightList li ul li a{
+    display: block;
+}
+
+.row2RightList li ul:first-child li div{
+    padding-top: 20px;
+}
+
+.row2RightList li ul:nth-child(2) li div{
+    padding: 60px 0;
+}
+
+.row2RightList li ul:nth-child(3) li div{
+    padding-top: 42px;
+}
+
+
+
+
+
+
+
